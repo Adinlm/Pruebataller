@@ -1,0 +1,10 @@
+
+# Private local configuration and security backups
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.sqlite3-journal
+__pycache__/
+private-backups/
+*CREDENCIALES*PRIVADO*
